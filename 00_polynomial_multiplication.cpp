@@ -47,7 +47,7 @@ int *poly_multiplication(int *A, int *B, int n)
 	{
 		for (int j = 0; j < (n); j++)
 		{
-			solution[i+j] += A[i]*B[j];
+			solution[i+j] += A[i]*B[j]; // important 
 		}
 	}
 	
